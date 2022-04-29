@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/OwenMG/Team_Profile_Generator/issues"
   },
-  "homepage": "https://github.com/OwenMG/Team_Profile_Generator#readme"
+  "homepage": "https://github.com/OwenMG/Team_Profile_Generator#readme",
+  "dependencies": {
+    "jest": "^28.0.2"
+  }
 }

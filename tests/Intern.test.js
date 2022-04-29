@@ -1,1 +1,1 @@
-const manager=require("../lib/Intern");
+const Intern=require("../lib/Intern");

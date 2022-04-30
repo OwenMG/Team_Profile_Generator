@@ -5,6 +5,7 @@ const Employee = require("./lib/Employee");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+const generateHTML = require("./utils/generateHTML");
 
 let team = [];
 // defining the prompt messages for inquirer
@@ -132,11 +133,6 @@ function addNewIntern() {
     })
 };
 
-// defines procedure for generating HTML of the finalized team data
-function generateHTML(team){
-
-}
-
 // defines UI menu function
 function runMenu() {
     inquirer
@@ -159,7 +155,10 @@ function runMenu() {
             if(data.selection == prompts.menu.finish) {
                 console.log("Generating html...");
                 console.log(team);
-                generateHTML(team);
+                const renderedHTML = generateHTML(team);
+                fs.writeFile("./dist/index.html", renderedHTML,  (err) => 
+                err ? console.error(err) : console.log ("Success!"));
+                console.log("HTML has been generated, you may close the command line.");
             }
         })
 

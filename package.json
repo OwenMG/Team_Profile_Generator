@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/OwenMG/Team_Profile_Generator#readme",
   "dependencies": {
+    "inquirer": "^8.2.4",
     "jest": "^28.0.2"
   }
 }

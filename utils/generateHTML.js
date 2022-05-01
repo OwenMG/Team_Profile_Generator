@@ -1,28 +1,11 @@
-// const Engineer = require("../lib/Engineer");
-// const Manager = require("../lib/Manager");
-// const Intern = require("../lib/Intern");
-// var team = []
-// for (i=0; i<5;i++){
-//     const engineer = new Engineer("Jim", (i+1), "Jim@gmail.com", "OwenMG")
-//     team.push(engineer);
-// }
-// console.log(team);
-// const teamContent = team.map((member)=>{
-//     return member.renderHTML();
-// })
-// console.log(teamContent);
-// const teamHTML = teamContent.join(`
-// `);
-// console.log(teamHTML);
-
 function generateHTML(team) {
+    // generate a new array of just HTML elements
     const teamContent = team.map((member)=>{
         return member.renderHTML();
     })
-    console.log(teamContent);
+    // combine the HTML elements into one string to paste into file
     const teamHTML = teamContent.join(`
     `);
-    console.log(teamHTML);
     return `
     <!doctype html>
 <html lang="en">

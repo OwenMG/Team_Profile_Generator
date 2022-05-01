@@ -66,4 +66,4 @@
 
   ## Walkthrough Video 
 
-  [Here](https://drive.google.com/file/d/1vSDbJnMiYREnQW1D78obGGuCbioxkueu/view?usp=sharing) you will find a link to a video demonstrating how to use the application.
+  [Here](https://drive.google.com/file/d/1ACMypmpih2v_loHoj_1dpS6Fy-dBpWig/view?usp=sharing) you will find a link to a video demonstrating how to use the application.

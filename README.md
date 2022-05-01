@@ -16,6 +16,8 @@
 
   6. [Questions](#questions)
 
+  7. [Walkthrough Video](#walkthrough-video)
+
   ## Description
 
   The Team Profile Generator is a command line interface application that allows the user to enter data about the Manager, Engineers, and Interns for their project team, generating an HTML page with profile cards for the group. 
@@ -61,3 +63,7 @@
 
   | :memo:  [Email](mailto:omgwebdev@gmail.com)                  |
   |-----------------------------------------------------------|
+
+  ## Walkthrough Video 
+
+  [Here](https://drive.google.com/file/d/1vSDbJnMiYREnQW1D78obGGuCbioxkueu/view?usp=sharing) you will find a link to a video demonstrating how to use the application.
